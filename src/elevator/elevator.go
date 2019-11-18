@@ -25,7 +25,8 @@ func passengersIn() int {
 
 func updateCurrentPassengerCount(passengersIn int) int {
 	if noOfPassengers+passengersIn > totalPassengerCount {
-		// erro
+		// display an erro since total passengers cannot exceed
+		// maximum passengers
 		return totalPassengerCount
 	}
 	return noOfPassengers + passengersIn
