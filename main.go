@@ -16,6 +16,7 @@ const minFloorNumber = 0
 type controlState int
 
 const (
+	// Status Specifies the control state
 	Status controlState = iota
 	Pickup
 	Step
